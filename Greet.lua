@@ -2,11 +2,6 @@ local function greet(person)
     print("Hello, " .. person)
 end
 
---[[
-How To Use Function
+-- Example
 
-greet("<name>")
-
-Ex.
-1. greet("Bob")
-]]---
+greet("bob")
