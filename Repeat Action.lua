@@ -4,8 +4,10 @@ local function repeat_action(number, func)
     end
 end
 
---[[
-How To Use Function
+-- Example
 
-1. repeat_action(<number>, <function>)
-]]--
+local function h()
+    print("h")
+end
+
+repeat_action(5, h)
