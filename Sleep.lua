@@ -3,13 +3,8 @@ local function sleep(seconds)
     repeat until os.clock() - start_time >= seconds
 end
 
---[[
-How To Use Function
+-- Example
 
-sleep(<time>)
-
-Ex.
-1. print("Waiting 3 Seconds")
-2. sleep(3)
-3. print("Waited 3 Seconds!")
-]]---
+print("Waiting 3 seconds.")
+sleep(3)
+print("Waited 3 seconds.")
